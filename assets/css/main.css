@@ -24,3 +24,23 @@ li::before {
   position: absolute;
   left: 0;
 }
+
+a:hover {
+    color: red; 
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+
+a[rel~=external] {
+    font-size: 1.1em;
+}
+
+a[rel~=external]::before {
+    content:"\1F310\0020";
+    font-size: 0.7em; 
+}
+
