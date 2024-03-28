@@ -1,4 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ if .Param "mastodon_verify"}}
+<link href="{{ .Param "mastodon_verify" }}" rel="me">
+{{ end }}
 {{ partialCached "head/css.html" . }}
