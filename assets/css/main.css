@@ -39,8 +39,8 @@ a[rel~=external] {
     font-size: 1.1em;
 }
 
-a[rel~=external]::before {
-    content:"\1F310\0020";
+a[rel~=external]::after {
+    content:"\1F310";
     font-size: 0.7em; 
 }
 
