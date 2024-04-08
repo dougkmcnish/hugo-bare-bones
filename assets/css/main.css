@@ -28,11 +28,11 @@ ul {
   position: relative;
 }
 
-/* li::before { */
-/*   content: '➤'; */
-/*   position: absolute; */
-/*   left: 0; */
-/* } */
+ul.page-list li::before {
+  content: '➤';
+  position: absolute;
+  left: 0;
+}
 
 a:hover {
     color: red; 
