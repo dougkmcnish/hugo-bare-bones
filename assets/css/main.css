@@ -25,7 +25,10 @@ nav ul li {
 
 ul {
   position: relative;
-  list-style: none;
+}
+
+ul.page-list {
+    list-style: none; 
 }
 
 ul.page-list li::before {
