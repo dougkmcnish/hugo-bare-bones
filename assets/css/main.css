@@ -16,7 +16,6 @@ h1, h2, h3 {
 
 nav ul { 
     padding:0; 
-    list-style: none; 
 }
 
 nav ul li {
@@ -26,6 +25,7 @@ nav ul li {
 
 ul {
   position: relative;
+  list-style: none;
 }
 
 ul.page-list li::before {
