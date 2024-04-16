@@ -10,6 +10,12 @@ body {
     10px;
 }
 
+pre {
+    font-family: monospace;
+    font-size: 0.8em; 
+
+}
+
 h1, h2, h3 {
     line-height: 1.2;
 }
