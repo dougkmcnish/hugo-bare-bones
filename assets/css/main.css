@@ -26,7 +26,6 @@ nav ul {
 
 nav ul li {
     display:inline;     
-    padding-top: 5px; 
     padding-right: 10px; 
 }
 
@@ -36,6 +35,10 @@ ul {
 
 ul.page-list {
     list-style: none; 
+}
+
+ul.page-list li {
+    padding-top: 5px; 
 }
 
 ul.page-list li::before {
