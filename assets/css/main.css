@@ -41,8 +41,6 @@ ul.page-list li {
     margin-top: 15px;
 }
 
-
-
 ul.page-list li::before {
   content: '➤';
   position: absolute;
