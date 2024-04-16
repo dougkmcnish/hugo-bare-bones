@@ -38,8 +38,10 @@ ul.page-list {
 }
 
 ul.page-list li {
-    padding-top: 5px; 
+    margin-top: 5px;
 }
+
+
 
 ul.page-list li::before {
   content: '➤';
